@@ -1,0 +1,208 @@
+body{
+    margin:0;
+}
+
+
+section{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    min-height:150px;
+
+    padding: 100px 10vw;
+    
+}
+
+button:hover{
+    background-color: #57b35a81;
+}
+
+button:active{
+    background-color: #FF785A;
+}
+
+.field1{
+    min-height:50px;
+    padding:0px;
+
+    background-color: #FFAA5A;
+}
+
+
+
+.head{
+    min-height:125px;
+    padding:0px;
+
+    background-color: #191919;
+}
+
+.foot{
+    min-height:125px;
+    padding:0px;
+
+    background-color: #191919;
+}
+
+.title{
+    color:rgba(255, 255, 255, 0.637);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    padding-top:10px;
+}
+
+.foot img{
+    height:100px;
+    padding-top:25px;
+    padding-bottom:50px;
+}
+
+.mainbody{
+    background-color: #FF785A;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+.head img{
+    height:75px;
+    padding-top:25px;
+}
+
+.buttons{
+    padding-top:25px;
+
+   
+}
+
+
+
+input[type="text"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#pageno {
+    margin-top: 20px;
+}
+
+.container{
+    display:flex;
+}
+
+.pt1{
+    flex: 1;
+    margin-right: 20px;
+    margin-top:17px;
+}
+
+.pt2{
+    flex: 1;
+    margin-right: 20px;
+    margin-top:17px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+
+    padding:50px;
+
+    
+    
+}
+  
+.input-container input {
+    margin-right: 10px; /* Add some spacing between the elements if needed */
+}
+
+.toplabel h4{
+   padding-left:80px;
+   padding-right:50px;
+}
+
+.labels{
+    padding-right:50px;
+}
+
+.datebox{
+    padding-bottom:20px;
+}
+
+.datebox input{
+    height:25px;
+    width:500px;
+
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.curve1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.curve1 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 28px;
+}
+
+.curve1 .shape-fill {
+    fill:#191919;
+}
+
+
+
+
+
+
+
+
+
+.wave1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave1 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 34px;
+}
+
+.wave1 .shape-fill {
+    fill:#FFAA5A;
+}
+
+  
